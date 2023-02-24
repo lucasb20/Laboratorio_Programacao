@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+float A,B;
+
+Puts("Digite o primeiro número. ");
+Scanf("%f",&A);
+Puts("Digite o segundo número. ");
+Scanf("%f",&B);
+
+Printf("A soma: %f, o produto: %f, a diferença: %f, o quociente: %f, e o resto da divisão: %f.",A+B,A*B,A-B,A/B,A%B);
+
+return 0;
+}
