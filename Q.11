@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+
+float real,dolar,conv;
+
+Puts("Digite o valor em real a ser convertido. ");
+Scanf("%f",&real);
+Puts("Digite o valor da cotação do dólar");
+Scanf("%f",&conv);
+
+dolar = real*conv;
+
+Printf("O valor em dólar é: %.2f",dolar);
+
+return 0;
+}
