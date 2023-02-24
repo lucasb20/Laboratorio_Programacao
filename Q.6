@@ -1,12 +1,14 @@
-#include
+#include <stdio.h>
 
 int main(){
 
-int h, sex;
-float peso;
+int sex;
+float h, peso;
 
 Puts("Digite a altura em metros. ");
+Scanf("%f",&h);
 Puts("Digite o sexo, 0 para homem e 1 para mulher. ");
+Scanf("%d",&sex);
 
 peso=sex?62.1*h-44.7:72.7*h-58;
 
