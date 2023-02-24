@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+
+float comp, altura, largura;
+
+Puts("Digite seu comprimento.");
+Scanf("%f",&comp);
+Puts("Digite sua altura.");
+Scanf("%f",&altura);
+Puts("Digite sua largura.");
+Scanf("%f",&largura);
+
+Printf("O valor do volume é: %.2f",comp*altura*largura);
+
+return 0;
+}
