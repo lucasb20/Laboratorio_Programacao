@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+
+float valor_hora, horas_trab, INSS, sal_bruto, sal_liqui;
+
+Puts("Digite o valor por hora trabalhada. ");
+Scanf("%f",&valor_hora);
+Puts("Digite a quantidades de horas trabalhas no mês. ");
+Scanf("%f",&horas_trab);
+Puts("Digite o percetual do desconto do INSS. ");
+Scanf("%f",&INSS);
+
+sal_bruto = valor_hora*horas_trab;
+sal_liqui = sal_bruto*(1-INSS/100)
+
+Printf("O salário bruto é de %.2f, e o líquido é de %.2f",sal_bruto,sal_liqui);
+
+return 0;
+}
