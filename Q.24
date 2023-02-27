@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+
+float x, res;
+int n;
+
+Puts("Digite o X. ");
+Scanf("%f",&x);
+Puts("Digite o N. ");
+Scanf("%d",&n);
+
+res = (n>=0)? x << n: x >> n;
+
+Printf("O resultado é %f",res);
+
+return 0;
+}
