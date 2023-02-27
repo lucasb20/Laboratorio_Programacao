@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+
+int a,b;
+//char k;
+
+Puts("Digite o primeiro número. ");
+Scanf("%d",&a);
+Puts("Digite o segundo número. ");
+Scanf("%d",&b);
+
+//k = (a%b)?"não é":"é";
+
+//Printf("O primeiro número com certeza %s múltimo do segundo número. ",k);
+
+return 0;
+}
