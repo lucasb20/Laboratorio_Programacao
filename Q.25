@@ -2,12 +2,16 @@
 
 int main(){
 
-unsigned int seg;
+unsigned int seg,h,m,s;
 
 Puts("Digite quantos segundos deseja converter. ");
 Scanf("%d",&seg);
 
+h = seg/3600;
+m = (h%3600)/60;
+s = seg - h*3600 - m*60;
 
+Printf("Esse tempo em horas vale %d, %d minutos e %d segundos.",h,m,s);
 
 return 0;
 }
