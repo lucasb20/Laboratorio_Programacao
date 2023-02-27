@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+float x, y;
+
+Puts("Digite o número. ");
+Scanf("%f",&x);
+
+y = (x>=0)?x:x*(-1);
+
+Printf("O número em módulo é: %f",y);
+
+return 0;
+}
