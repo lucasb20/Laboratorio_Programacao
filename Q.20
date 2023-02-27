@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+
+int x;
+
+Puts("Digite um número. ");
+Scanf("%d",&x);
+
+Printf("Na divisão por 2 o número deixa resto %d", x%2);
+
+return 0;
+}
