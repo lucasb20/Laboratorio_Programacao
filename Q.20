@@ -3,11 +3,16 @@
 int main(){
 
 int x;
+//char y;
+
 
 Puts("Digite um número. ");
 Scanf("%d",&x);
 
+//y = (x%2)?"ímpar":"par";
+
 Printf("Na divisão por 2 o número deixa resto %d", x%2);
+//Printf("O número %d é %s. ", x, y);
 
 return 0;
 }
