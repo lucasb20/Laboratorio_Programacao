@@ -2,14 +2,14 @@
 
 int main(){
 
-float A,B;
+int A,B;
 
-Puts("Digite o primeiro número. ");
-Scanf("%f",&A);
-Puts("Digite o segundo número. ");
-Scanf("%f",&B);
+puts("Digite o primeiro número. ");
+scanf("%d",&A);
+puts("Digite o segundo número. ");
+scanf("%d",&B);
 
-Printf("A soma: %f, o produto: %f, a diferença: %f, o quociente: %f, e o resto da divisão: %f.",A+B,A*B,A-B,A/B,A%B);
+printf("A soma: %d, o produto: %d, a diferença: %d, o quociente: %d, e o resto da divisão: %d.",A+B,A*B,A-B,A/B,A%B);
 
 return 0;
 }
