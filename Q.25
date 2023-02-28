@@ -1,17 +1,19 @@
+
 #include <stdio.h>
 
 int main(){
 
-unsigned int seg,h,m,s;
+int seg,h,m,s,aux;
 
-Puts("Digite quantos segundos deseja converter. ");
-Scanf("%d",&seg);
+puts("Digite quantos segundos deseja converter. ");
+scanf("%d",&seg);
 
 h = seg/3600;
-m = (h%3600)/60;
-s = seg - h*3600 - m*60;
+aux = seg % 3600;
+m = aux/60;
+s = aux%60;
 
-Printf("Esse tempo em horas vale %d, %d minutos e %d segundos.",h,m,s);
+printf("Esse tempo vale %d horas, %d minutos e %d segundos.",h,m,s);
 
 return 0;
 }
