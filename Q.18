@@ -4,10 +4,10 @@ int main(){
 
 float raio,pi=3.14159;
 
-Puts("Digite o valor do raio. ");
-Scanf("%f",&raio);
+puts("Digite o valor do raio. ");
+scanf("%f",&raio);
 
-Printf("O valor do diamento é %.5f, o da circunferência é %.5f e o da área %.5f",raio*2,2*pi*raio,pi*raio*raio);
+printf("O valor do diamento é %.5f, o da circunferência é %.5f e o da área %.5f",raio*2,2*pi*raio,pi*raio*raio);
 
 return 0;
 }
