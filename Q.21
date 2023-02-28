@@ -3,16 +3,13 @@
 int main(){
 
 int a,b;
-//char k;
 
-Puts("Digite o primeiro número. ");
-Scanf("%d",&a);
-Puts("Digite o segundo número. ");
-Scanf("%d",&b);
+puts("Digite o primeiro número. ");
+scanf("%d",&a);
+puts("Digite o segundo número. ");
+scanf("%d",&b);
 
-//k = (a%b)?"não é":"é";
-
-//Printf("O primeiro número com certeza %s múltimo do segundo número. ",k);
+(a%b)?printf("O primeiro número não é múltiplo do segundo."):printf("O primeiro número é múltiplo do segundo.");
 
 return 0;
 }
