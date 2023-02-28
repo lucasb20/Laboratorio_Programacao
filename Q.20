@@ -2,17 +2,12 @@
 
 int main(){
 
-int x;
-//char y;
+int x,y;
 
+puts("Digite um número. ");
+scanf("%d",&x);
 
-Puts("Digite um número. ");
-Scanf("%d",&x);
-
-//y = (x%2)?"ímpar":"par";
-
-Printf("Na divisão por 2 o número deixa resto %d", x%2);
-//Printf("O número %d é %s. ", x, y);
+(x%2)?printf("O número é ímpar."):printf("O número é par.");
 
 return 0;
 }
