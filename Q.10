@@ -4,14 +4,14 @@ int main(){
 
 float comp, altura, largura;
 
-Puts("Digite seu comprimento.");
-Scanf("%f",&comp);
-Puts("Digite sua altura.");
-Scanf("%f",&altura);
-Puts("Digite sua largura.");
-Scanf("%f",&largura);
+puts("Digite seu comprimento.");
+scanf("%f",&comp);
+puts("Digite sua altura.");
+scanf("%f",&altura);
+puts("Digite sua largura.");
+scanf("%f",&largura);
 
-Printf("O valor do volume é: %.2f",comp*altura*largura);
+printf("O valor do volume é: %.2f",comp*altura*largura);
 
 return 0;
 }
