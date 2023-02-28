@@ -4,16 +4,16 @@ int main(){
 
 int A, B;
 
-Puts("Digite a primeira variável. ");
-Scanf("%d",&A);
-Puts("Digite a segunda variável. ");
-Scanf("%d",&B);
+puts("Digite a primeira variável. ");
+scanf("%d",&A);
+puts("Digite a segunda variável. ");
+scanf("%d",&B);
 
 A = A^B;
 B = A^B;
-A = A^B:
+A = A^B;
 
-Printf("A = %d, B = %d",A,B);
+printf("A = %d, B = %d",A,B);
 
 return 0;
 }
