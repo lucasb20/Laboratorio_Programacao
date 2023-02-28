@@ -5,17 +5,17 @@ int main(){
 
 float a,b,c,ma,mg;
 
-Puts("Digite o primeiro número. ");
-Scanf("%f",&a);
-Puts("Digite o segundo número. ");
-Scanf("%f",&b);
-Puts("Digite o terceiro número. ");
-Scanf("%f",&c);
+puts("Digite o primeiro número. ");
+scanf("%f",&a);
+puts("Digite o segundo número. ");
+scanf("%f",&b);
+puts("Digite o terceiro número. ");
+scanf("%f",&c);
 
 ma = (a+b+c)/3;
 mg = pow(a*b*c,1/3);
 
-Printf("A média aritmética é &.2f e a média geométrica é &.2f",ma,mg);
+printf("A média aritmética é %.2f e a média geométrica é %.2f",ma,mg);
 
 return 0;
 }
