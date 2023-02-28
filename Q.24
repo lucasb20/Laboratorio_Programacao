@@ -2,17 +2,16 @@
 
 int main(){
 
-float x, res;
-int n;
+int n, x, res;
 
-Puts("Digite o X. ");
-Scanf("%f",&x);
-Puts("Digite o N. ");
-Scanf("%d",&n);
+puts("Digite o X. ");
+scanf("%d",&x);
+puts("Digite o N. ");
+scanf("%d",&n);
 
 res = (n>=0)? x << n: x >> n;
 
-Printf("O resultado é %f",res);
+printf("O resultado é %d",res);
 
 return 0;
 }
