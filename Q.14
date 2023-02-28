@@ -4,12 +4,12 @@ int main(){
 
 float F,C;
 
-Puts("Digite a temperatura em graus Celsius. ");
-Scanf("%f",&C);
+puts("Digite a temperatura em graus Celsius. ");
+scanf("%f",&C);
 
 F = (C*9+160)/5;
 
-Printf("A temperatura em Fahrenheit é: %.2f",F);
+printf("A temperatura em Fahrenheit é: %.2f",F);
 
 return 0;
 }
