@@ -4,8 +4,8 @@ int main(){
 
 float dias_trab, salario;
 
-Puts("Digite a quantidade de dias trabalhados. ");
-Scanf("%f",&dias_trab);
+puts("Digite a quantidade de dias trabalhados. ");
+scanf("%f",&dias_trab);
 
 if(dias_trab > 20){
   salario = dias_trab*1.3*0.9;
@@ -17,7 +17,7 @@ else{
   salario = dias_trab*0.9*1.2;
 }
 
-Printf("O salário líquido vai ser de %.2f",salario);
+printf("O salário líquido vai ser de %.2f",salario);
 
 return 0;
 }
