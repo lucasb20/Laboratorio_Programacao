@@ -4,12 +4,12 @@ int main(){
 
 float x, y;
 
-Puts("Digite o número. ");
-Scanf("%f",&x);
+puts("Digite o número. ");
+scanf("%f",&x);
 
 y = (x>=0)?x:x*(-1);
 
-Printf("O número em módulo é: %f",y);
+printf("O número em módulo é: %f",y);
 
 return 0;
 }
