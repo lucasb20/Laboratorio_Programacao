@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+
+    int c1=3,c2=4,h=5,i=1;
+
+    for(;;){
+        printf("Solução: (%d,%d,%d)\n",c1*i++,c2*i,h*i);
+        if(h*i>=500)break;
+    }
+
+    return 0;
+}
