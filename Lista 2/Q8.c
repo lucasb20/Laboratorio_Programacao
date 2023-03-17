@@ -8,9 +8,6 @@ int main(){
     puts("Digite o valor do produto. ");
     scanf("%f",&valor);
 
-    //entrada + p + p = valor;
-    //entrada >= p;
-
     for(;;){
         p++;
         entrada = valor -2*p;
