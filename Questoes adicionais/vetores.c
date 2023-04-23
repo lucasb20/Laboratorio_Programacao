@@ -53,6 +53,10 @@ int main(){
     printf("Vetor Q:\n");
     for(int i=0;i<imp;i++)printf("%p [%d]\n",*(q+i),**(q+i));
 
+    free(x);
+    free(p);
+    free(q);
+
     return 0;
 }
 
