@@ -16,7 +16,7 @@ int main(){
 
     srand(time(NULL));
 
-    gerar_vetor(X,N,0);
+    gerar_vetor(X,TAM,N,0);
     
     for(int i=0;i<TAM;i++){
         r=rand()%11;
@@ -63,8 +63,8 @@ void imprimir(int *p, int t){
     printf("\n");
 }
 
-void gerar_vetor(int *p,int RAN,int SHI){
-    for(int i=0;i<TAM;i++)*(p+i)=rand()%RAN+SHI;
+void gerar_vetor(int *p,int t,int RAN,int SHI){
+    for(int i=0;i<t;i++)*(p+i)=rand()%RAN+SHI;
 }
 
 
