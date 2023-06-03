@@ -9,38 +9,15 @@ int coocorrencia(int *,int *,int,int,int);
 
 void imprimirMatriz(int *,int,int);
 
-void gerar_vetor(int *,int,int,int);
+void gerar_vetor(int *,int,int);
 
 int main(){
-    int X[TAM],Y[TAM],N=7,M[N*N],*m=M,r;
+    int X[TAM],Y[TAM],N=7,M[N*N],*m=M;
 
     srand(time(NULL));
 
-    gerar_vetor(X,TAM,N,0);
-    
-    for(int i=0;i<TAM;i++){
-        r=rand()%11;
-        switch(r){
-            case 0 ... 3:
-            Y[i]=X[i];
-            break;
-            case 4 ... 5:
-            Y[i]=X[i]-1;
-            break;
-            case 6 ... 7:
-            Y[i]=X[i]+1;
-            break;
-            case 8 ... 9:
-            Y[i]=X[i]-2;
-            break;      
-            case 10:
-            Y[i]=X[i]+2;
-            break;
-            default:
-            printf("ERROR007");
-            ;      
-        }
-    }
+    gerar_vetor(X,N,0);
+    gerar_vetor(Y,N,0);
 
     printf("Vetor X: ");
     imprimir(X,TAM);
@@ -59,12 +36,12 @@ int main(){
 }
 
 void imprimir(int *p, int t){
-    for (int i=0; i<t; i++)printf("%2d ",*(p+i));
+    for (int i=0; i<t; i++)printf("%d ",*(p+i));
     printf("\n");
 }
 
-void gerar_vetor(int *p,int t,int RAN,int SHI){
-    for(int i=0;i<t;i++)*(p+i)=rand()%RAN+SHI;
+void gerar_vetor(int *p,int RAN,int SHI){
+    for(int i=0;i<TAM;i++)*(p+i)=rand()%RAN+SHI;
 }
 
 
